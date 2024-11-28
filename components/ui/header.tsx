@@ -16,8 +16,6 @@ export default function Header() {
             </span>
           </div>
 
-
-
           {/* Desktop navigation links */}
           <ul className="flex flex-1 items-center justify-end gap-6">
             <li>
@@ -25,7 +23,7 @@ export default function Header() {
                 to="home"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition"
+                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
                 Home
               </ScrollLink>
@@ -35,7 +33,7 @@ export default function Header() {
                 to="expertise"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition"
+                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
                 Expertise
               </ScrollLink>
@@ -45,7 +43,7 @@ export default function Header() {
                 to="services"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition"
+                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
                 Services
               </ScrollLink>
@@ -55,7 +53,7 @@ export default function Header() {
                 to="why-choose-us"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition"
+                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:text-base md:text-lg lg:text-xl"
               >
                 Why Choose Us
               </ScrollLink>
@@ -65,7 +63,7 @@ export default function Header() {
                 to="contact"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition"
+                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
                 Contact
               </ScrollLink>

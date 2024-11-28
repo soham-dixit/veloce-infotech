@@ -11,10 +11,12 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-1 items-center gap-3">
             <Logo />
-              <span className="text-gray-300 text-lg font-semibold sm:text-xs md:text-xs lg:text-lg">
-                Veloce Infotech
-              </span>
+            <span className="text-gray-300 text-lg font-semibold hidden lg:block">
+              Veloce Infotech
+            </span>
           </div>
+
+
 
           {/* Desktop navigation links */}
           <ul className="flex flex-1 items-center justify-end gap-6">

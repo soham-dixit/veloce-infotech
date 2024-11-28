@@ -18,7 +18,7 @@ export default function Header() {
 
           {/* Desktop navigation links */}
           <ul className="flex flex-1 items-center justify-end gap-6">
-            <li>
+            <li className="hidden lg:block">
               <ScrollLink
                 to="home"
                 smooth={true}
@@ -28,7 +28,7 @@ export default function Header() {
                 Home
               </ScrollLink>
             </li>
-            <li>
+            <li className="hidden lg:block">
               <ScrollLink
                 to="expertise"
                 smooth={true}

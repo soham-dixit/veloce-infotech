@@ -135,6 +135,14 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="tel:+918356002279"
+                >
+                  +91 8356002279
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="https://www.linkedin.com/company/veloce-infotech/"
                 >
                   Follow us on LinkedIn

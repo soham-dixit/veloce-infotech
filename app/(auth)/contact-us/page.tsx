@@ -17,7 +17,7 @@ export default function ContactUs() {
             </h1>
           </div>
           {/* Contact form */}
-          <form className="mx-auto max-w-[400px]">
+          <form className="mx-auto max-w-[400px]" action="https://formspree.io/f/xpwwgowj" method="post">
             <div className="space-y-5">
               <div>
                 <label
@@ -29,6 +29,7 @@ export default function ContactUs() {
                 <input
                   id="name"
                   type="text"
+                  name="name"
                   className="form-input w-full"
                   placeholder="Your full name"
                   required
@@ -44,6 +45,7 @@ export default function ContactUs() {
                 <input
                   id="company"
                   type="text"
+                  name="company"
                   className="form-input w-full"
                   placeholder="Your company name"
                 />
@@ -58,6 +60,7 @@ export default function ContactUs() {
                 <input
                   id="email"
                   type="email"
+                  name="email"
                   className="form-input w-full"
                   placeholder="Your email address"
                   required
@@ -73,6 +76,7 @@ export default function ContactUs() {
                 <input
                   id="phone"
                   type="tel"
+                  name="phone"
                   className="form-input w-full"
                   placeholder="Your phone number"
                   required
@@ -88,6 +92,7 @@ export default function ContactUs() {
                 <textarea
                   id="message"
                   className="form-input w-full"
+                  name="message"
                   placeholder="Your message"
                   rows={4}
                   required
@@ -95,7 +100,7 @@ export default function ContactUs() {
               </div>
             </div>
             <div className="mt-6 space-y-5">
-              <button className="btn w-full bg-gradient-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]">
+              <button type="submit" className="btn w-full bg-gradient-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]">
                 Send Message
               </button>
             </div>

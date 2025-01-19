@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Veloce NxtGen",
-  description: "Welcome to Veloce Infotech—where ideas transform into impactful digital solutions. As a youth-led team passionate about technology, design, and innovation, we specialize in turning visions into reality through our expertise in Web Development, App Development, IoT Solutions, Creative Design, and Digital Marketing.",
+  description: "At Veloce Nxtgen, we empower businesses and brands through cutting-edge digital solutions, unforgettable events, and captivating media content. Our mission is simple: To help you innovate, engage, and inspire in today's fast-paced world.",
 };
 
 import PageIllustration from "@/components/page-illustration";

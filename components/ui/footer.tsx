@@ -19,7 +19,7 @@ export default function Footer() {
             alt="Footer illustration"
           />
         </div>
-        <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-12 py-8 sm:grid-rows-auto md:grid-rows-auto lg:grid-rows-1 xl:gap-20 justify-center">
           {/* 1st block */}
           <div className="space-y-2">
             <h3 className="text-sm font-medium text-gray-200">Our Services</h3>
@@ -45,7 +45,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  IoT Solutions
+                  Hackathons
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Creative Design & Branding
+                  Conferences
                 </a>
               </li>
               <li>
@@ -69,7 +69,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Digital Marketing
+                  And more!
                 </a>
               </li>
             </ul>
@@ -83,7 +83,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Youth-Led Team
+                  Multi-Dimensional Expertise
                 </a>
               </li>
               <li>
@@ -91,7 +91,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  End-to-End Solutions
+                  Fresh, Youth-Led Innovation
                 </a>
               </li>
               <li>
@@ -99,7 +99,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Passion for Digital Transformation
+                  Comprehensive and Custom Solutions
                 </a>
               </li>
               <li>
@@ -107,7 +107,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Client-Centric Approach
+                 Seamless Integration Across Services
                 </a>
               </li>
               <li>
@@ -115,7 +115,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Innovative Solutions
+                  Results-Driven Focus
                 </a>
               </li>
             </ul>
@@ -157,7 +157,7 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
-                © 2024 Veloce Infotech
+                © 2025 Veloce NxtGen
                 {/* <span className="text-gray-700"> · </span>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"

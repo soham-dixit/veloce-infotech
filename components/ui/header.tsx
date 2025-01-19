@@ -1,6 +1,7 @@
 "use client";
 
 import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link"; // Import next Link for page navigation
 import Logo from "./logo";
 
 export default function Header() {
@@ -12,61 +13,44 @@ export default function Header() {
           <div className="flex flex-1 items-center gap-3">
             <Logo />
             <span className="text-gray-300 text-lg font-semibold hidden lg:block">
-              Veloce Infotech
+              Veloce NxtGen
             </span>
           </div>
 
           {/* Desktop navigation links */}
           <ul className="flex flex-1 items-center justify-end gap-6">
             <li className="hidden lg:block">
-              <ScrollLink
-                to="home"
-                smooth={true}
-                duration={500}
+              {/* Replaced ScrollLink with Link for page navigation */}
+              <Link
+                href="/tech" // Link to the "Tech" page
                 className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
-                Home
-              </ScrollLink>
+                Tech
+              </Link>
             </li>
             <li className="hidden lg:block">
-              <ScrollLink
-                to="expertise"
-                smooth={true}
-                duration={500}
+              <Link
+                href="/events" // Link to the "Tech" page
                 className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
-                Expertise
-              </ScrollLink>
+                Events
+              </Link>
+            </li>
+            <li className="hidden lg:block">
+              <Link
+                href="/media" // Link to the "Tech" page
+                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
+              >
+                Media
+              </Link>
             </li>
             <li>
-              <ScrollLink
-                to="services"
-                smooth={true}
-                duration={500}
+              <Link
+                href="/contact-us" // Link to the "Tech" page
                 className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
               >
-                Services
-              </ScrollLink>
-            </li>
-            {/* <li>
-              <ScrollLink
-                to="why-choose-us"
-                smooth={true}
-                duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:text-base md:text-lg lg:text-xl"
-              >
-                Why Choose Us
-              </ScrollLink>
-            </li> */}
-            <li>
-              <ScrollLink
-                to="contact"
-                smooth={true}
-                duration={500}
-                className="cursor-pointer text-gray-300 hover:text-indigo-500 transition text-sm sm:sm md:text-lg lg:text-xl"
-              >
-                Contact
-              </ScrollLink>
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>

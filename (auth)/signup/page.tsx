@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Contact Us - Open PRO",
+  title: "Contact Us - Veloce NxtGen",
   description: "Page description",
 };
 
